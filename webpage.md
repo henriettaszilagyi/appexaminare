@@ -12,7 +12,7 @@ if (document.cookie.split(';').some(function(item) { return item.indexOf('reader
 if (document.cookie.split(';').some((item) => item.includes('reader=1'))) { console.log('The cookie "reader" has "1" for value') } </script> 
 <body>
   Bun venit pe pagina cu prajituri!<br>
-  <button onclick="doOnce()">Only do something once</button><br>
-  <button onclick="resetOnce()">Reset only once cookie</button><br>
+  <button onclick="doOnce()">Vezi cookies</button><br>
+  <button onclick="resetOnce()">Reseteaza buton cu cookie</button><br>
 Szilagyi Henrietta-Andrea
 </body>
