@@ -3,8 +3,6 @@
 document.cookie = "name=henrietta"; 
 document.cookie = navigator.appVersion;  
 
-const cookieValue = document.cookie .split('; ') .find(row => row.startsWith('test2=')) .split('=')[1]; 
-
 function doOnce() { if (!document.cookie.split('; ').find(row => row.startsWith('doSomethingOnlyOnce'))) { alert(document.cookie); 
 document.cookie = "doSomethingOnlyOnce=true; expires=Fri, 31 Dec 9999 23:59:59 GMT"; } } 
 function resetOnce() { document.cookie = "doSomethingOnlyOnce=; expires=Thu, 01 Jan 1970 00:00:00 GMT"; } //ES5 
