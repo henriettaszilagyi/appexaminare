@@ -14,6 +14,6 @@ if (document.cookie.split(';').some((item) => item.includes('reader=1'))) { cons
   Bun venit pe pagina cu prajituri!<br>
   <button onclick="doOnce()">Vezi cookies</button><br>
   <button onclick="resetOnce()">Reseteaza buton cu cookie</button><br>
-  <a href="https://didatec-my.sharepoint.com/:w:/r/personal/szilagyi_he_henri_utcluj_didatec_ro/_layouts/15/Doc.aspx?sourcedoc=%7B02175963-161C-4C61-9E55-04E30A59C7D6%7D&file=Analiza%20de%20impact.docx&action=edit&mobileredirect=true&wdNewAndOpenCt=1621792338112&ct=1621792338112&wdPreviousSession=0b3ed004-2258-4e6a-bb7d-185826811b79&wdOrigin=OFFICECOM-WEB.MAIN.UPLOAD">Acceseaza analiza de impact</a>
+  <a href="https://didatec-my.sharepoint.com/:w:/r/personal/szilagyi_he_henri_utcluj_didatec_ro/_layouts/15/Doc.aspx?sourcedoc=%7B02175963-161C-4C61-9E55-04E30A59C7D6%7D&file=Analiza%20de%20impact.docx&action=edit&mobileredirect=true&wdNewAndOpenCt=1621792338112&ct=1621792338112&wdPreviousSession=0b3ed004-2258-4e6a-bb7d-185826811b79&wdOrigin=OFFICECOM-WEB.MAIN.UPLOAD">Acceseaza analiza de impact</a><br>
 Szilagyi Henrietta-Andrea
 </body>
